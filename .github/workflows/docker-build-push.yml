@@ -24,7 +24,7 @@ jobs:
     # Step 3: Build the Docker image
     - name: Build Docker image
       run: |
-        docker build -t ${{ secrets.REGISTRY_URL }}/dockerbuild:latest
+        docker build -t ${{ secrets.REGISTRY_URL }}/dockerbuild:latest .
 
     # Step 4: Push the Docker image to the private registry
     - name: Push Docker image
