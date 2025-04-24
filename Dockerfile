@@ -1,4 +1,4 @@
-# Use an official Python runtime as a parent image
+# Use an official Python runtime as a parent image ubuntu
 FROM python:3.12.4-slim
 
 # Set environment variables
